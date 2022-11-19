@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>MY SKILL</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- as a link -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SKILLSET</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">SETTING</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.HTML">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li class="dropdown-item" style="cursor: pointer;"><span onclick="setDarkMod(false)"
+                                        class="btn1">light mod</span></li>
+                                <li class="dropdown-item" style="cursor: pointer;"><span onclick=" setDarkMod(true)"
+                                        class="btn1">dark mod</span></li>
+                                <li>
+                                    <!-- <hr class="dropdown-divider"> -->
+                                </li>
+                                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="d-flex justify-content-center" style="margin-top: 5rem;">
+        <div class="d-sm-flex bg-dark shadow-lg p-3 mb-5 rounded">
+            <div class="card m-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Frontend Development</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">HTML, CSS, JS, Bootstrap</h6>
+                    <p class="card-text">saya sangat suka dengan codingan yang bisa langsung di lihat oleh mata secara
+                        langsung.</p>
+                    <a href="https://github.com/Hanzo080501/Hanzo080501.github.io" class="card-link">open portofolio</a>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Backend Development</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">JS, PHP, SQL</h6>
+                    <p class="card-text">saya lumayan atau bisa dikatakan cukup handaal untuk Backend atau codingan
+                        dibelakang layar.<p>
+                            <a href="https://github.com/Hanzo080501/Hanzo080501.github.io" class="card-link">open
+                                portofolio</a>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">framework</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Laravel, ReactJS</h6>
+                    <p class="card-text">untuk hal framewarok saya juga sangat bisa diandalkan, terutama Laravel dan
+                        ReactJS.</p>
+                    <a href="https://github.com/Hanzo080501/Hanzo080501.github.io" class="card-link">open portofolio</a>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">jasa nugas</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">HTML, CSS, JS</h6>
+                    <p class="card-text">Bagi yang suka bermalas-malasan atau agak kesulitan dalam html, css, dan js,
+                        saya bisa membantu.</p>
+                    <a href="https://github.com/Hanzo080501/Hanzo080501.github.io" class="card-link">open portofolio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center my-2">
+        <button class="btn btn-dark" onclick="gassWhatshapp()" type="button">call me</button>
+    </div>
+
+
+    <!-- js button call me -->
+    <script src="/js/wa.js" tabindex="text/javascript"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+    <!-- dark mod -->
+    <script src="/js/data.js" tabindex="text/javascript"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+body {
+    transition: .8s;
+}
+
+#dark {
+    color: #000;
+    background: #231D2E;
+    transition: .8s;
+}
+
+.btn:hover {
+    background: rgb(11, 21, 114);
+}
+
+.carousel {
+    margin-top: 3.5rem;
+}
+
